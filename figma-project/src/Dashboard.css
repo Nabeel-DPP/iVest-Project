@@ -1,0 +1,295 @@
+.dashHeading
+{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 20px;
+    margin-top: 40px;
+    font-weight:800;
+    font-size: 30px;
+}
+
+.dashboard
+{
+    height: 100% !important ;
+    width: 100% !important;
+    margin-top: 50px !important;
+    display: flex !important;
+    justify-content: space-around !important;
+
+}
+.profileName
+{
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 600 !important;
+}
+.profileMail
+{
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.dashCard
+{
+    overflow: hidden !important;
+    background-color: #FFFF  !important;
+    height: 520px ;
+    width:25% !important;
+    border: 2px solid  #F1F4FA !important;
+    border-radius: 10px !important;
+}
+.btnContainer
+{
+    text-align: left !important;
+}
+.dashBtn
+{
+    background-color:#FFFF !important;
+    color: #202327 !important;
+    width: 335px !important;
+    border-radius:0 !important;
+    text-align: left !important;
+    border: none ;
+    padding-top: 20px ;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-bottom: -7px;
+    border-bottom:1px solid #F1F4FA  !important;
+     font-family: 'Montserrat', sans-serif !important;
+
+   
+    
+}
+
+.btn-active{
+    
+
+    background-color: #F1F4FA !important;
+    border-left: 4px solid #F7B138 !important;
+
+}
+
+.majorCard
+{
+    /* background-color: blueviolet; */
+    height: 1250px ;
+    width: 70%;
+    border: 2px solid  #F1F4FA !important;
+    border-radius: 10px !important;
+    padding: 30px !important;
+}
+
+.section1
+{   
+    /* background-color: blueviolet; */
+    display: flex !important;
+    justify-content: space-between;
+    height: 15%;
+}
+.currName
+{
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 500 !important;
+}
+.currDetail
+{
+    color: #100F1F;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight:bolder !important;
+}
+.currDollar
+{
+    margin-left: 40px;
+    font-family: 'Poppins', sans-serif !important;
+    opacity: 0.7;
+}
+.currBtnContainer
+{
+    display: flex !important;
+   /* background-color: aquamarine; */
+   width: 25%;
+   
+   justify-content: space-around;
+   
+}
+.currBtn
+{
+    height: 40px;
+    border: none !important;
+    color: #333333;
+    background-color: #FFFF !important;
+    border-bottom: 1px solid #333333 !important;
+    font-family: 'Poppins', sans-serif !important;
+   
+
+}
+.currBtn:hover
+{
+    border-bottom:1px solid blue !important ;
+}
+.sortIcon
+{
+    font-size: 10px !important;
+}
+
+.tableRow
+{
+   border-bottom:2px solid #FFFF !important;
+    
+}
+.tableContainer
+{
+    border-bottom:2px solid #F1F4FA !important;
+    
+    
+}
+
+.tHead
+{
+    border-bottom:2px solid #F1F4FA !important;
+
+}
+.tokenBody
+{
+    display: flex !important;
+    
+}
+.token
+{
+    margin-left: 20px !important;
+    
+}
+.tokenIcon
+{
+    margin-left: 130px !important;
+}
+.tokenDetail
+{
+    display: flex  !important;
+    justify-content: space-between !important;
+}
+.currGraph
+{
+    margin-top: 30px !important;
+    width: 50% !important;
+    background-color: #F1F4FA !important;
+}
+.graphBox
+{
+    /* background-color: #F7B138 !important; */
+    margin-top: 5px !important;
+}
+.section3
+{
+    display: flex;
+    justify-content: space-between !important;
+}
+.graphCard
+{
+  width: 45% !important;
+  height: 200px !important;
+  margin-top: 30px !important;
+  font-family: "Poppins" ,sans-serif !important;
+}
+.currConverter
+{
+   
+    margin-top: 50px ;
+    height: 25% !important;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: crimson !important; */
+    font-family: "Poppins",sans-serif !important;
+    opacity: 0.8 !important;
+   
+}
+.section4
+{
+    height: 350px !important;
+    /* background-color: cadetblue !important; */
+    display: flex !important;
+    flex-direction: column !important;
+    background-color: #F1F4FA;
+    margin-top: 30px !important;
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+    padding-left: 80px;
+    padding-right: 80px;
+    
+    
+
+}
+.conBtn
+{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px !important;
+    background-color: #150D30;
+    color: #FFFF;
+    width: 20%;
+    padding: 15px 20px !important;
+    border-radius: 30px;
+    position: relative;
+    left: 40%;
+    font-family: "Poppins",sans-serif !important;
+}
+.conBtn:hover
+{
+    cursor: pointer;
+}
+.convDes
+{
+    margin-top: 20px !important;
+    font-family: "Poppins " , sans-serif !important;
+    opacity: 0.6;
+}
+.conHeading
+{
+    text-align: center;
+    /* position: relative;
+    top: 20px; */
+    font-size: 20px;
+    font-weight:500 ;
+    font-family: "Montserrat" ,sans-serif !important;
+}
+.dropDown
+{
+    background-color: transparent !important;
+}
+
+.dropdown-toggle
+{
+    background-color: transparent !important;
+    color: #100F1F !important;
+    border: none !important;
+}
+.form-control
+{
+    border-bottom: none !important;
+    border-right: none !important ;
+    border-top: none !important ;
+    /* background-color: #F7B138; */
+    background-color: transparent;
+}
+.input-group
+{
+    border: 1px solid black !important;
+    border-radius: 10px !important;
+    width: 350px !important;
+    /* background-color: aqua; */
+    padding: 5px;
+    
+    
+}
+.cardChart
+{
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+}
+.tableDes
+{
+    font-family: "Poppins",sans-serif !important;
+    font-size: 11px !important;
+    opacity: 0.8;
+}
