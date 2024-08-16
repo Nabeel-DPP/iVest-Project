@@ -1,3 +1,142 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+}
+/* #root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+
+ body,html
+ {
+  width: 100% !important;
+  height: 100% !important;
+ }
+.home
+{
+  width: 100% !important;
+  height: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  /* background-color: #F7B138; */
+}
+
+.outlet
+{
+  
+  margin-top: 100px !important;
+  margin-bottom: 100px !important;
+  width: 100% !important;
+  height: 100% !important;
+  /* background-color: #F7B138 !important; */
+}
+.navbar
+{
+  background-color: #100F1F !important;
+  width: 100% !important;
+}
+
+.nav-link
+{
+  color: #FFFFFF !important;
+  /* transition: 0.5s; */
+  font-family: 'DM Sans', sans-serif;
+  font-size: 18px !important;
+}
+.nav-item a:hover
+{
+  opacity: 0.7 !important;
+}
+
+
+.navbar-brand img
+{
+  height: 100px !important;
+  width: 100px !important;
+}
+.navbarItems
+{
+  
+  display: flex !important;
+  align-items: center !important;
+}
+#register
+{
+  background-color: #F7B138 !important;
+  color: #10092C !important;
+  border-radius: 50px !important;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}
+
+.fIcon
+{
+  background-color: blueviolet;
+  margin-left: 10px ;
+  background-color: #202327;
+  color:#FFFFFF;
+  padding: 20px;
+  border-radius: 100%;
+  transition: 0.5s;
+}
+.fIcon:hover
+{
+  color:#202327 !important ;
+  background-color: #FFFFFF !important;
+}
+
+.footer
+{
+ 
+  background-color: #17122B;
+  padding: 50px !important;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 500px !important;
+  position: sticky;
+  
+}
+.footerRow
+{
+   display: flex !important;
+   justify-content: center !important;
+   color: #FFFFFF;
+}
+.line
+{
+  color: #3E3E3E;
+  
+}
+.lead
+{
+  opacity: 0.7;
+}
+.lead:hover
+{
+  cursor: pointer !important;
+}
+
+.registerBtn
+{
+  width: 100%;
+  background-color: #150D30;
+  color: #FFFFFF;
+  padding-top: 10px ;
+  padding-bottom: 10px;
+  border-radius: 50px;
+  border: none !important;
+}
+.formLoginBtn
+{
+  text-decoration: none;
+  color:#150D30 ;
+}
+
 .dashHeading
 {
     font-family: 'Montserrat', sans-serif;
@@ -263,15 +402,15 @@
     color: #100F1F !important;
     border: none !important;
 }
-.form-control
+.dash-form
 {
-    border-bottom: none !important;
+    border-bottom: none !important; 
     border-right: none !important ;
     border-top: none !important ;
     /* background-color: #F7B138; */
-    background-color: transparent;
+     background-color: transparent;
 }
-.input-group
+.dash-input-group
 {
     border: 1px solid black !important;
     border-radius: 10px !important;
@@ -292,4 +431,145 @@
     font-family: "Poppins",sans-serif !important;
     font-size: 11px !important;
     opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+.collapse
+{
+  justify-content: flex-end !important;
+}
+
+
+.navbar-nav
+{
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content:space-between !important;
+  /* background-color: chocolate !important; */
+}
+.navbar-items
+{
+  /* background-color:darkgreen !important; */
+  width: 60% !important;
+}
+.toolBar
+{
+   background-color: #100F1F !important;;
+}
+
+.modal-content
+{
+  /* background-color: #100F1F; */
+  width: 100% ;
+  height: 100%;
+  padding: 50px ;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-around;
+  
+}
+.modal-dialog
+{
+  /* background-color: rgb(129, 31, 31) !important; */
+  width: 50% !important;
+  height: 80% !important;
+  /* padding: 50px !important; */
+  
+}
+
+.btn-submit
+{
+  background-color: #150D30;
+  color: #FFFFFF;
+  border-radius: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: "Poppins" ,sans-serif ;
+
+}
+.modalBtns
+{
+  margin-top: 10%;
+  font-family: 'DM Sans', sans-serif;
+}
+.modalBtns .btn
+{
+  margin-top: 3%;
+}
+.modal-title
+{
+  font-family: 'Montserrat', sans-serif;
+  font-weight:600 !important;
+  font-size: 28px !important;
+}
+.modal-des
+{
+  font-family: "Poppins",sans-serif;
+  font-size: 12px;
+  /* opacity: 0.7; */
+}
+.modal-input
+{
+  font-family: "Poppins",sans-serif; 
+  /* opacity: 0.9; */
+  font-size: 12px;
+  margin-bottom: 10px ;
+
+}
+.modal-input .form-control
+{
+  /* background-color: #F7B138; */
+  padding: 10px;
+}
+.dash-check
+{
+  /* background-color: #F6F6F6; */
+  margin-right: 10px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #E0E0E0;
+  border-radius: 5px;
+  
+}
+.dash-check:has(input[type="radio"]:checked) {
+  background-color: #F6F6F6; /* Background color when checkbox is selected */
+}
+
+.dash-radio
+{
+ 
+ position: relative;
+ left: 40%;
+}
+.dash-radio:checked
+{
+ background-color: #150D30 ;
+ 
+ 
+ border: none;
+}
+
+.verify-modal .form-control
+{
+ padding-top: 30px;
+ padding-bottom: 30px;
+}
+.verify-btn
+{
+  font-family: "Poppins" ,sans-serif;
+  margin-top: 10px;
+}
+
+.membershipModal
+{
+  margin-top: 50px;
 }

@@ -11,10 +11,10 @@ function Footer()
                     <div className="col-lg-4  mb-lg-0">
                         <h4 className="text-uppercase mb-4"><img src="/src/layout/Logo.png"  alt="Logo" /></h4>
                         <p className="lead mb-0">
-                        <i class="fab fa fa-facebook-f fIcon"></i>
-                        <i class="fa-brands fa-twitter fIcon"></i>
-                        <i class="fa-brands fa-instagram fIcon"></i>
-                        <i class="fa-brands fa-snapchat fIcon"></i>
+                        <i className="fab fa fa-facebook-f fIcon"></i>
+                        <i className="fa-brands fa-twitter fIcon"></i>
+                        <i className="fa-brands fa-instagram fIcon"></i>
+                        <i className="fa-brands fa-snapchat fIcon"></i>
                         
                        
                         </p>
